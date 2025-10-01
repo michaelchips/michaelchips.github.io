@@ -2,13 +2,17 @@
 title: About Me
 draft: false
 ---
-`Last updated 29-Aug-2025`
+`Last updated 01-Oct-2025`
 
-Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. I hope you find something on here that interests you and that you learn something new from my posts!
+Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. 
+
+You can expect me to write on here in a mix of normal and formal/professional tones, but generally leaning more towards a normal relaxed tone. I hope you find something on here that interests you and that you learn something new from my posts!
 
 ![Photo of me](/images/20250828_123853_1.jpg)
 
-I'm currently studying for an Integrated Masters MSci in Computer Science at Royal Holloway, University of London. I've completed my third year and I'm now on my year in industry working in cyber security at National Highways until June 2026, which I will then return to university to complete my final year. I was the Treasurer for Royal Holloway's Cyber Security Society for the 2024/25 academic year, which was an amazing experience hosting lots of different events and building our community from zero to lots of active members!
+Currently I'm undertaking an Integrated Masters MSci in Computer Science at Royal Holloway, University of London. I've completed my third year and I'm now completing my year in industry working in cyber security at National Highways until June 2026, which I will then return to university to complete my final year. 
+
+For the 2024/25 academic year, I was the Treasurer for Royal Holloway's Cyber Security Society, which was an amazing experience hosting lots of different events. I'm proud of how our team built our community from zero to lots of active members with a large presence on campus!
 
 ![Royal Holloway Cyber Security Society](/images/IMG-20241001-WA0031_2.jpg)
 
@@ -19,9 +23,11 @@ My primary areas of interest are:
 - TCP/IP Networking
 - Cryptography
 
-I've worked in IT support since August 2020 and I'm certified as an IT Infrastructure Technician. I regularly work on Active Directory, Office 365 Administration, backend PowerShell automation, physical hardware repairs of desktops and laptops, certification in Cyber Essentials for 2 years in a row, just to name a few. I particularly specialise in a system called Microsoft Endpoint Configuration Manager (known as SCCM), which I managed around 1200 Windows hosts and deployed remote software installations, Windows Updates, customised Windows images for reimaging computers over the network and more. I also assist my customers with technical issues and take pride in providing an excellent customer experience, so much that I won the award for outstanding support in 2021 through many nominations from staff members all across the business!
+I worked in IT support from August 2020 to June 2025 and I'm certified as an IT Infrastructure Technician. I regularly work on Active Directory, Office 365 Administration, backend PowerShell automation, physical hardware repairs of desktops and laptops, certification in Cyber Essentials for 2 years in a row, just to name a few. 
 
-Outside of all things professional, I enjoy cars, aviation, listening to music and playing piano & guitar, tinkering with Linux and my IT homelab environment, and making people around me laugh in silly ways. I also love learning as much as I can, and sharing my knowledge with others around me. I love the colour purple, in case it wasn't already obvious from the website's colours!
+I particularly specialise in a system called Microsoft Endpoint Configuration Manager (known as SCCM), which I managed around 1200 Windows hosts and deployed remote software installations, Windows Updates, customised Windows images for reimaging computers over the network and more. I also assist my customers with technical issues and take pride in providing an excellent customer experience, so much that I won the award for outstanding support in 2021 through many nominations from staff members all across the business!
+
+Outside of all things professional, I also enjoy cars, aviation, listening to music and playing piano & guitar, tinkering with Linux and my IT homelab environment, and making people around me laugh in silly ways. I also love learning as much as I can, and sharing my knowledge with others around me. I love the colour purple, in case it wasn't already obvious from the website's colours!
 
 ![Purple!](/images/purple_keyboard_controller.webp)
 
@@ -32,9 +38,10 @@ Outside of all things professional, I enjoy cars, aviation, listening to music a
 ![National Highways](/images/national_highways_logo.jpeg)
 ## Year in Industry - Digital Services
 #### National Highways, Guildford  |  Jun 2025 to Present, Full Time
-• Created security awareness communications for all staff and suppliers  
-• Rotating around different teams in security, have just recently rotated into the Identity and Access Management (IAM) team  
-• Still a relatively new position, will update with more information in the future
+• Create security awareness communications for all staff and suppliers
+• Update staff training and knowledge-base articles to ensure they're current
+• Monitor operations in the IGA & PAM environments and escalate any issues identified
+_Still a relatively new position, will update with more information in the future_
 
 ![Royal Holloway, University of London](/images/royal_holloway_university_of_london_logo.jpeg)
 ## Teaching Assistant in Computer Science
@@ -47,7 +54,7 @@ Outside of all things professional, I enjoy cars, aviation, listening to music a
 
 ![East Surrey College](/images/east_surrey_college_logo.jpeg)
 ## East Surrey College, Redhill
-#### IT Support Assistant  |  Aug 2022 to Present, Flexible
+#### IT Support Assistant  |  Aug 2022 to Jun 2025, Flexible
 Continuing my duties from my completed apprenticeship, now working flexibly while completing my full-time education at university
 
 |
