@@ -2,18 +2,18 @@
 title: Projects
 draft: false
 ---
-# Quantum Circuit Simulation Framework
-**Description:** A framework of the quantum circuit model in Python for simulating algorithms in quantum computing
+# Volq
+**Description:** Interpreted programming language for simulating quantum computing algorithms
 
 **Languages:** Python
 
-**Libraries**: NumPy, PyTest
+**Libraries & Tools**: NumPy, unittest, PyLint
 
-**Version:** v0.2.0-alpha
+**Version:** v0.2.1-alpha
 
 **Development Status:** Active
 
-[Link to GitHub Repository](https://github.com/NetMasterMichael/quantum-circuit-simulation-framework)
+[Link to GitHub Repository](https://github.com/gwmichael/volq-quantum)
 
 [\[Read more\]](/projects/quantum-circuit-simulation-framework)
 
@@ -25,12 +25,12 @@ draft: false
 
 **Languages:** Java
 
-**Libraries**: JUnit 5 Jupyter
+**Libraries & Tools**: JUnit 5 Jupyter, Checkstyle
 
 **Version:** Pre-alpha
 
 **Development Status:** Paused with intentions to resume in the future
 
-[Link to GitHub Repository](https://github.com/NetMasterMichael/AlgorithmSuiteX)
+[Link to GitHub Repository](https://github.com/gwmichael/AlgorithmSuiteX)
 
 [\[Read more\]](/projects/algorithmsuitex)
