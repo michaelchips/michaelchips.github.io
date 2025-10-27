@@ -15,7 +15,7 @@ draft: false
 
 [Link to GitHub Repository](https://github.com/gwmichael/volq-quantum)
 
-[\[Read more\]](/projects/quantum-circuit-simulation-framework)
+[\[Read more\]](/projects/volq)
 
 ---
 
