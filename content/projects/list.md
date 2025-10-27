@@ -3,6 +3,8 @@ title: Projects
 draft: false
 ---
 # Volq
+**May 2025 to Present** [\[Read more\]](/projects/volq)
+
 **Description:** Interpreted programming language for simulating quantum computing algorithms
 
 **Languages:** Python
@@ -15,12 +17,14 @@ draft: false
 
 [Link to GitHub Repository](https://github.com/gwmichael/volq-quantum)
 
-[\[Read more\]](/projects/volq)
+
 
 ---
 
 
 # AlgorithmSuiteX
+**Jul 2024 to Aug 2024** [\[Read more\]](/projects/algorithmsuitex)
+
 **Description:** A collection of various classical algorithms in computer science, including sorting algorithms, and later, tree algorithms and graph algorithms
 
 **Languages:** Java
@@ -32,5 +36,3 @@ draft: false
 **Development Status:** Paused with intentions to resume in the future
 
 [Link to GitHub Repository](https://github.com/gwmichael/AlgorithmSuiteX)
-
-[\[Read more\]](/projects/algorithmsuitex)
