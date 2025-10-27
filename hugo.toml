@@ -102,21 +102,26 @@ pagination.pagerSize = 5
           url = "/about"
           weight = 1
         [[languages.en.menu.main]]
+          identifier = "volq"
+          name = "Volq Quantum"
+          url = "/projects/list"
+          weight = 2
+         [[languages.en.menu.main]]
           identifier = "projects"
           name = "Projects"
           url = "/projects/list"
-          weight = 2
+          weight = 3
         [[languages.en.menu.main]]
           identifier = "linkedin"
           name = "LinkedIn"
           url = "https://www.linkedin.com/in/goodwin-michael/"
-          weight = 3
+          weight = 4
           params = { NewTab = true }
         [[languages.en.menu.main]]
           identifier = "github"
           name = "GitHub"
-          url = "https://github.com/NetMasterMichael"
-          weight = 4
+          url = "https://github.com/gwmichael"
+          weight = 5
           params = { NewTab = true }
 
 [module]
