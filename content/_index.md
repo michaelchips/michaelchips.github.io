@@ -12,3 +12,5 @@ Creating value out of thin air.
 - Ex Treasurer of **Royal Holloway Cyber Security Society**
 - Developer of **Volq**, an interpreted programming language   
 for simulating quantum computing algorithms
+
+All opinions expressed here are solely my own and not those of any organisation.
