@@ -38,14 +38,14 @@ Outside of all things professional, I also enjoy cars, aviation, listening to mu
 ![National Highways](/images/national_highways_logo.jpeg)
 ## Year in Industry - Digital Services
 #### National Highways, Guildford  |  Jun 2025 to Present, Full Time
-• Create security awareness communications for all staff and suppliers
-• Update staff training and knowledge-base articles to ensure they're current
-• Monitor operations in the IGA & PAM environments and escalate any issues identified
+• Create security awareness communications for all staff and suppliers  
+• Update staff training and knowledge-base articles to ensure they're current  
+• Monitor operations in the IGA & PAM environments and escalate any issues identified  
 _Still a relatively new position, will update with more information in the future_
 
 ![Royal Holloway, University of London](/images/royal_holloway_university_of_london_logo.jpeg)
 ## Teaching Assistant in Computer Science
-#### Royal Holloway, University of London, Egham  |  Sept 2024 to Jun 2025, Part-Time
+#### Royal Holloway, University of London, Egham  |  Sep 2024 to Jun 2025, Part-Time
 • Support 2nd-year students with C programming in the Operating Systems module  
 • Answer student questions during the 2nd-year Team Project in-person lectures and online drop-in sessions  
 • Occasionally lead and deliver lab sessions when lecturers are unavailable  
@@ -80,7 +80,7 @@ I also showed enthusiasm in other projects out of interest, and developed my tec
 ![Royal Holloway, University of London](/images/royal_holloway_university_of_london_logo.jpeg)
 ##  Royal Holloway, University of London
 ### Master of Science - Integrated MSci, Computer Science with a Year in Industry
-### Sept 2022 to 2027
+### Sep 2022 to 2027
 - Grade: Ongoing; 75% overall in Year 1, 77% in Year 2, 72% in Year 3
 
 ![East Surrey College](/images/east_surrey_college_logo.jpeg)
@@ -117,7 +117,7 @@ I also showed enthusiasm in other projects out of interest, and developed my tec
 
 ![Royal Holloway Cyber Security Society](/images/cssrhul_logo.jpeg)
 ## Treasurer
-#### Royal Holloway Cyber Security Society  |  Sept 2024 to Jun 2025
+#### Royal Holloway Cyber Security Society  |  Sep 2024 to Jun 2025
 • Host fun and engaging events about Cybersecurity with my committee members, including CTF competitions, ethical hacking workshops, socials and guest talks  
 • Maintain the hosting and backend configuration of our society's CTF platform, powered by the CTFd framework  
 • Hosted an event at CompSoc's Royal Hackaway v8 Hackathon (2025) themed around OSINT  
