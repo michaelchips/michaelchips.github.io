@@ -88,8 +88,7 @@ I also showed enthusiasm in other projects out of interest, and developed my tec
 ### Level 3 Infrastructure Technician Apprenticeship
 #### Aug 2020 to Jul 2022
 ##### City & Guilds Level 3 Infrastructure Technician (9648-75)
-- Issued Jul 2022
-- Grade: **Distinction**
+- Issued Jul 2022 at grade **Distinction**
 - [Link to Credly Badge](https://www.credly.com/badges/ee3efb18-8d7f-4e5a-a1df-95d8fcf33f64/public_url)
 ##### City & Guilds Level 3 Award in Business Processes (603/0623/3)
 - Issued Jan 2021
