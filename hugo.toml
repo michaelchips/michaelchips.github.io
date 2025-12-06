@@ -1,4 +1,4 @@
-baseurl = "https://netmastermichael.com/"
+baseurl = "https://michaelchips.uk/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -74,11 +74,11 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "user@nmm.com:~$"
+    title = "user@michaelchips.uk:~$"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
-      owner = "Michael Goodwin NetMasterMichael"
+      owner = "Michael Goodwin michaelchips"
       keywords = ""
       copyright = "2025"
       menuMore = "Show more"
@@ -92,7 +92,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "user@netmastermichael.com:~$"
+        logoText = "user@michaelchips.uk:~$"
         logoHomeLink = "/"
 
       [languages.en.menu]
@@ -120,7 +120,7 @@ pagination.pagerSize = 5
         [[languages.en.menu.main]]
           identifier = "github"
           name = "GitHub"
-          url = "https://github.com/gwmichael"
+          url = "https://github.com/michaelchips"
           weight = 5
           params = { NewTab = true }
 
