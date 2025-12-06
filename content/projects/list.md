@@ -15,7 +15,7 @@ draft: false
 
 **Development Status:** Active
 
-[Link to GitHub Repository](https://github.com/gwmichael/volq-quantum)
+[Link to GitHub Repository](https://github.com/michaelchips/volq-quantum)
 
 
 
@@ -35,4 +35,4 @@ draft: false
 
 **Development Status:** Paused with intentions to resume in the future
 
-[Link to GitHub Repository](https://github.com/gwmichael/AlgorithmSuiteX)
+[Link to GitHub Repository](https://github.com/michaelchips/AlgorithmSuiteX)
