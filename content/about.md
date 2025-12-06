@@ -2,7 +2,7 @@
 title: About Me
 draft: false
 ---
-`Last updated 01-Oct-2025`
+`Last updated 06-Dec-2025`
 
 Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. 
 
@@ -30,6 +30,8 @@ I particularly specialise in a system called Microsoft Endpoint Configuration Ma
 Outside of all things professional, I also enjoy cars, aviation, listening to music and playing piano & guitar, tinkering with Linux and my IT homelab environment, and making people around me laugh in silly ways. I also love learning as much as I can, and sharing my knowledge with others around me. I love the colour purple, in case it wasn't already obvious from the website's colours!
 
 ![Purple!](/images/purple_keyboard_controller.webp)
+
+_Fun fact: michaelchips is a play on words of microchips, and has nothing to do with the food_
 
 ---
 
