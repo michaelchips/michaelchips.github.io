@@ -5,7 +5,7 @@ draft: false
 # Volq
 **May 2025 to Present** [\[Read more\]](/projects/volq)
 
-**Description:** Interpreted programming language for simulating quantum computing algorithms
+**Description:** An easy-to-learn interpreted programming language for simulating quantum computing algorithms
 
 **Languages:** Python
 
