@@ -2,7 +2,7 @@
 title: About Me
 draft: false
 ---
-`Last updated 06-Dec-2025`
+`Last updated 08-Jan-2026`
 
 Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. 
 
