@@ -2,7 +2,7 @@
 title: About Me
 draft: false
 ---
-`Last updated 06-Dec-2025`
+`Last updated 08-Jan-2026`
 
 Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. 
 
@@ -85,6 +85,17 @@ I also showed enthusiasm in other projects out of interest, and developed my tec
 ### Sep 2022 to 2027
 - Grade: Ongoing; 75% overall in Year 1, 77% in Year 2, 72% in Year 3
 
+![Microsoft](/images/microsoft_logo.jpeg)
+## Microsoft
+##### Microsoft AZ-900 Azure Fundamentals
+- Issued Dec 2025
+- [Link to credential (learn.microsoft.com)](https://learn.microsoft.com/en-gb/users/michaelchips/credentials/c0f253eef9008e6b)
+
+![Saviynt](/images/saviynt-logo.jpeg)
+## Saviynt
+##### Saviynt Identity Security for the AI Age
+- Issued Nov 2025
+
 ![East Surrey College](/images/east_surrey_college_logo.jpeg)
 ## East Surrey College
 ### Level 3 Infrastructure Technician Apprenticeship
@@ -111,6 +122,11 @@ I also showed enthusiasm in other projects out of interest, and developed my tec
 ### GCSE English Language
 - Awarded Aug 2019
 - Grade: 5
+
+![CyberStart](/images/cyberstart_logo.jpeg)
+## CyberStart
+##### CyberStart Essentials
+- Issued May 2020
 
 ---
 
