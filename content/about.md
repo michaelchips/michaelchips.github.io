@@ -2,7 +2,7 @@
 title: About Me
 draft: false
 ---
-`Last updated 08-Jan-2026`
+`Last updated 19-Jan-2026`
 
 Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. 
 
@@ -27,7 +27,7 @@ I worked in IT support from August 2020 to June 2025 and I'm certified as an IT 
 
 I particularly specialise in a system called Microsoft Endpoint Configuration Manager (known as SCCM), which I managed around 1200 Windows hosts and deployed remote software installations, Windows Updates, customised Windows images for reimaging computers over the network and more. I also assist my customers with technical issues and take pride in providing an excellent customer experience, so much that I won the award for outstanding support in 2021 through many nominations from staff members all across the business!
 
-Outside of all things professional, I also enjoy cars, aviation, listening to music and playing piano & guitar, tinkering with Linux and my IT homelab environment, and making people around me laugh in silly ways. I also love learning as much as I can, and sharing my knowledge with others around me. I love the colour purple, in case it wasn't already obvious from the website's colours!
+Outside of all things professional, I also enjoy cars, aviation, listening to music and playing piano & guitar, photography, tinkering with Linux and my IT homelab environment, and making people around me laugh in silly ways. I also love learning as much as I can, and sharing my knowledge with others around me. I love the colour purple, in case it wasn't already obvious from the website's colours!
 
 ![Purple!](/images/purple_keyboard_controller.webp)
 
