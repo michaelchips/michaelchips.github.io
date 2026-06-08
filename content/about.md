@@ -2,7 +2,7 @@
 title: About Me
 draft: false
 ---
-`Last updated 19-Jan-2026`
+`Last updated 8-Jun-2026`
 
 Hello! I'm Michael and I'm someone with too many interests to count. This website is my blog for random curiosities that I'm interested in or projects that I'm working on. 
 
@@ -12,12 +12,12 @@ You can expect me to write on here in a mix of normal and formal/professional to
 
 Currently I'm undertaking an Integrated Masters MSci in Computer Science at Royal Holloway, University of London. I've completed my third year and I'm now completing my year in industry working in cyber security at National Highways until June 2026, which I will then return to university to complete my final year. 
 
-For the 2024/25 academic year, I was the Treasurer for Royal Holloway's Cyber Security Society, which was an amazing experience hosting lots of different events. I'm proud of how our team built our community from zero to lots of active members with a large presence on campus!
+For the 2024/25 academic year, I was the Treasurer for Royal Holloway's Cyber Security Society, which was an amazing experience hosting lots of different events. I'm proud of how our team built our community, from zero to lots of active members with a large presence on campus, and I look forward to returning this year as the society's Vice President!
 
 ![Royal Holloway Cyber Security Society](/images/IMG-20241001-WA0031_2.jpg)
 
 My primary areas of interest are:
-- Cyber Security _(still ascertaining which specific area(s), there's a lot more of them than I thought)_
+- Offensive Cyber Security
 - Quantum Computing
 - Operating Systems
 - TCP/IP Networking
@@ -35,129 +35,4 @@ _Fun fact: michaelchips is a play on words of microchips, and has nothing to do 
 
 ---
 
-# Professional Experience
-
-![National Highways](/images/national_highways_logo.jpeg)
-## Year in Industry - Digital Services
-#### National Highways, Guildford  |  Jun 2025 to Present, Full Time
-• Create security awareness communications for all staff and suppliers  
-• Update staff training and knowledge-base articles to ensure they're current  
-• Monitor operations in the IGA & PAM environments and escalate any issues identified  
-_Still a relatively new position, will update with more information in the future_
-
-![Royal Holloway, University of London](/images/royal_holloway_university_of_london_logo.jpeg)
-## Teaching Assistant in Computer Science
-#### Royal Holloway, University of London, Egham  |  Sep 2024 to Jun 2025, Part-Time
-• Support 2nd-year students with C programming in the Operating Systems module  
-• Answer student questions during the 2nd-year Team Project in-person lectures and online drop-in sessions  
-• Occasionally lead and deliver lab sessions when lecturers are unavailable  
-• Mark and grade checkpoint sheets (Term 1) and robotics projects (Term 2) for 1st-year students  
-• Assist 1st-year students with Python programming in the Programming Laboratory module, and web development & networking tools in the Internet Services module
-
-![East Surrey College](/images/east_surrey_college_logo.jpeg)
-## East Surrey College, Redhill
-#### IT Support Assistant  |  Aug 2022 to Jun 2025, Flexible
-Continuing my duties from my completed apprenticeship, now working flexibly while completing my full-time education at university
-
-|
-
-#### IT Advanced Apprentice  |  Aug 2020 to Jun 2022, Full-Time
-• Fulfil requests from staff on the IT Helpdesk, meeting SLAs and providing a positive user experience  
-• Answer incoming phone calls from staff members and students, to provide remote support over the phone  
-• Provide face-to-face support to walk-ins for students and members of staff  
-• Lease IT assets out to staff and students and process these through our asset management system  
-• Support the college to ensure a smooth and reliable delivery of business-critical operations from the IT standpoint, such as GCSE, BTEC & T Levels examinations and Student Enrolments  
-• Produce documentation for new and existing processes  
-• Lead and mentor IT interns to introduce them to enterprise IT environment operations  
-
-I also showed enthusiasm in other projects out of interest, and developed my technical skills high enough to take on additional responsibilities outside of my apprentice role. They are as follows:  
-• Remotely manage ~1,200 Windows clients through Microsoft Endpoint Configuration Manager (formerly SCCM) by provisioning and deploying applications of varying complexity, rolling out Windows Updates, customizing Windows Images & OSD Task Sequences and administrating the primary site  
-• Provide assistance in maintaining the VMware physical infrastructure and VMware Horizon VDI when needed  
-• Develop scripts in PowerShell to innovate current manual processes into automated processes at the college with my strong background in programming
-
----
-
-# Education and Certifications
-
-![Royal Holloway, University of London](/images/royal_holloway_university_of_london_logo.jpeg)
-##  Royal Holloway, University of London
-### Master of Science - Integrated MSci, Computer Science with a Year in Industry
-### Sep 2022 to 2027
-- Grade: Ongoing; 75% overall in Year 1, 77% in Year 2, 72% in Year 3
-
-![Microsoft](/images/microsoft_logo.jpeg)
-## Microsoft
-##### Microsoft AZ-900 Azure Fundamentals
-- Issued Dec 2025
-- [Link to credential (learn.microsoft.com)](https://learn.microsoft.com/en-gb/users/michaelchips/credentials/c0f253eef9008e6b)
-
-![Saviynt](/images/saviynt-logo.jpeg)
-## Saviynt
-##### Saviynt Identity Security for the AI Age
-- Issued Nov 2025
-
-![East Surrey College](/images/east_surrey_college_logo.jpeg)
-## East Surrey College
-### Level 3 Infrastructure Technician Apprenticeship
-#### Aug 2020 to Jul 2022
-##### City & Guilds Level 3 Infrastructure Technician (9648-75)
-- Issued Jul 2022 at grade **Distinction**
-- [Link to Credly Badge](https://www.credly.com/badges/ee3efb18-8d7f-4e5a-a1df-95d8fcf33f64/public_url)
-##### City & Guilds Level 3 Award in Business Processes (603/0623/3)
-- Issued Jan 2021
-##### City & Guilds Level 3 Award in Cloud Services (603/0620/8)
-- Issued Jan 2021
-##### City & Guilds Level 3 Award in Coding and Logic (603/0622/1)
-- Issued Dec 2020
-##### City & Guilds Level 3 Award in Mobile and Operating Systems (603/0619/1)
-- Issued Nov 2020
-##### City & Guilds Level 3 Certificate in Networking and Architecture (603/0618/X)
-- Issued Oct 2020
-### BTEC Level 3 Extended Diploma in IT (Software Development)
-#### Sept 2018 to May 2020
-- Grade: **Triple Distinction Star (D\*D\*D\*)**; achieved Distinction in 18 out of 18 units
-### GCSE Mathematics
-- Awarded Aug 2020
-- Grade: 6
-### GCSE English Language
-- Awarded Aug 2019
-- Grade: 5
-
-![CyberStart](/images/cyberstart_logo.jpeg)
-## CyberStart
-##### CyberStart Essentials
-- Issued May 2020
-
----
-
-# Volunteering
-
-![Royal Holloway Cyber Security Society](/images/cssrhul_logo.jpeg)
-## Treasurer
-#### Royal Holloway Cyber Security Society  |  Sep 2024 to Jun 2025
-• Host fun and engaging events about Cybersecurity with my committee members, including CTF competitions, ethical hacking workshops, socials and guest talks  
-• Maintain the hosting and backend configuration of our society's CTF platform, powered by the CTFd framework  
-• Hosted an event at CompSoc's Royal Hackaway v8 Hackathon (2025) themed around OSINT  
-• Manage the society's budget and approve all financial transactions of the society  
-• Process and submit funding applications and expense claims for the society's committee members  
-• Report on the financial health of the society to the Royal Holloway Students' Union
-
-![Royal Holloway, University of London](/images/royal_holloway_university_of_london_logo.jpeg)
-## Royal Holloway, University of London, Egham
-#### Maths Mentor  |  Sep 2023 to May 2025
-Provided additional mathematics support to first-year computer science students studying the Mathematical Structures & Machine Fundamentals modules, and second-year computer science students studying the Cryptography & Linear Algebra modules
-#### Steam Stars Project  |  Oct 2023 to May 2024
-Delivered fun robotics and coding sessions to children in local primary schools, with the aim of inspiring young people to develop an interest and passion in STEM subjects.
-
----
-
-# Awards
-### Received at East Surrey College
-#### Outstanding Commitment to Supporting a Colleague or Colleagues (Support)
-- Awarded Dec 2021
-#### Special Executive Commendation – Best Apprentice Newcomer
-- Awarded Dec 2020
-#### Outstanding Student of the Year
-- Awarded Jun 2020
-#### Student of the Year
-- Awarded Jun 2019
+For my most up-to-date professional background, please visit [my LinkedIn profile](https://www.linkedin.com/in/goodwin-michael/).
