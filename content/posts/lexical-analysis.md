@@ -100,6 +100,8 @@ LITERAL("Good choice.")
 SEPARATOR())
 NEWLINE
 
+NEWLINE
+
 DEDENT
 COMMENT( End of program)
 EOF
