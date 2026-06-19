@@ -6,11 +6,16 @@ tags:
 ---
 Hello! This post is the first of a series of short posts going through what I learn as I research how compilers work. This is to help me write my Volq programming language, although last year I could've taken a module at university about compilers but I chose other modules instead, so now I'm researching it on my own.
 
-A Lexical Analyser, or a lexer or scanner for short, is the first component of a compiler that processes your source code. It is also relevant in areas such as Natural Language Processing (NLP), for example, your prompt being turned from text into tokens when you're talking to your favourite LLM, like ChatGPT or Claude etc.
+# What is lexical analysis?
+Lexical analysis is the procedure of analysing a statement of a certain language, whether that be code or a spoken language like English or Spanish, to break it down into small fragments called **lexemes**. These lexemes consist of not only the words in the statement, but also any symbols or grammar, such as commas and full stops. 
+
+At the lexical analysis stage, we don't check whether it is grammatically correct, as this is done during semantic analysis. All we do for now is we simply and _naively_ just break it down into lexemes, regardless of whether the statement is gramatically right or wrong.
+
+In the context of compilers, we use a program called a **Lexical Analyser** to do this, or a lexer/scanner for short. It is the first component of a compiler that processes your source code. It is also relevant in areas such as Natural Language Processing (NLP), for example, your prompt being turned from text into tokens when you're talking to your favourite large-language model, such as ChatGPT or Claude etc.
 
 A lexer reads source code of a program as its input. It scans the characters in the source code and then separates a group of characters into a **lexeme**, which is an individual segment of code with a certain meaning. For example, directives such as `if` or `while`, or variable names and what operators and values they're initialised with. 
 
-The **lexeme** is then matched to a certain **type of token** depending on what it is. For example, in the case of the lexeme `while`, this is a word reserved to the programming language and is outputted as a `KEYWORD` token. Another lexeme `dog` could be outputted as a `IDENTIFIER` or a `LITERAL`, depending on whether it's a variable or function name, or data in the form as a string. 
+The **lexeme** is then matched up to a certain category of word, depending on your language's grammar and what the lexeme is, then stored into an object called a **token**. For example, in the case of the lexeme `while`, this is a word reserved by the programming language's grammar and is outputted as a `KEYWORD` token. However, the lexeme `dog` is not reserved and therefore could be outputted as a `IDENTIFIER` or a `LITERAL`, depending on whether it's a variable or function name, or data in the form as a string. 
 
 This cycle is repeated until the end of the source code is reached, and the result is a stream of tokens representing all the source code provided. The lexer **does not** understand the meaning of the program and what it is doing. The only logical decisions it makes are separating out lexemes and categorising them into a type of token.
 
@@ -47,6 +52,7 @@ There are several types of tokens:
 
 Different lexers may treat some tokens differently, for example, some languages with the syntax convention to separate lines of code with line breaks, would pass all Newline tokens to the parser. Others that use a different syntax convention, semicolons to indicate the end of a code statement for example, may **ignore** generating Newline tokens.
 
+# Example
 Let's look at an example of lexing a small Python-esque program into tokens. It doesn't do much, it just asks the user for their favourite colour and responds with either me too or good choice.
 
 ```py
