@@ -11,7 +11,7 @@ draft: false
 
 **Libraries & Tools**: NumPy, unittest, PyLint
 
-**Version:** v0.2.1-alpha
+**Version:** v0.4.0-alpha
 
 **Development Status:** Active
 
