@@ -2,6 +2,19 @@
 title: Projects
 draft: false
 ---
+# cybersecuritysociety.uk
+**Aug 2026 to Present** 
+
+**Description:** The official website for the Royal Holloway Cyber Security Society. Created with zero generative AI using the Hugo static site generator framework with the HugoBlox theme & Python for some backend automation. Self-hosted by me via Apache2 and Nginx Proxy Manager.
+
+[\[Go there\]](https://cybersecuritysociety.uk)
+
+
+
+---
+
+
+
 # Volq
 **May 2025 to Present** [\[Read more\]](/projects/volq)
 
