@@ -102,9 +102,9 @@ pagination.pagerSize = 5
           url = "/about"
           weight = 1
         [[languages.en.menu.main]]
-          identifier = "volq"
-          name = "Volq Quantum"
-          url = "/projects/volq"
+          identifier = "posts"
+          name = "Posts"
+          url = "/posts-list"
           weight = 2
          [[languages.en.menu.main]]
           identifier = "projects"

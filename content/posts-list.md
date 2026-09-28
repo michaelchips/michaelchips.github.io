@@ -1,4 +1,4 @@
-# My Posts
+# All Posts
 
 2026-06-08 :~$ [**How Compilers & Interpreters Work 01 := Lexical Analysis**](/posts/lexical-analysis/)
 
