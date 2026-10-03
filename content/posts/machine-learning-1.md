@@ -232,8 +232,14 @@ Everything we've covered so far has been quite standalone, but all of that takes
 
 The dot product is an operation we can perform with two vectors and it returns a scalar. Its purpose is to tell us **how much two vectors point in the same direction**. But how?
 
-Lets start by going through how to calculate the dot product. This is how the dot product operator looks (who could've guessed!).$$\cdot$$ We'll use these two vectors below.$$\underline{u}=\begin{pmatrix}4\\4\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\-4\end{pmatrix}$$To calculate the dot product, we multiply each corresponding component together, then at the end, add them all together so that we end up with a scalar. In the example above, we want to run something like this:$$\underline{u}\cdot\underline{v}=\left(u_1\times v_1\right)+\left(u_2\times v_2\right)$$Let's write the same thing again but plug the numbers in now:$$\underline{u}\cdot\underline{v}=\left(4\times4\right)+\left(4\times-4\right)$$$$=16+(-16)=0$$
-And it equals 0... That doesn't seem correct, surely? Is that supposed to happen?
+Lets start by going through how to calculate the dot product. This is how the dot product operator looks when used with two vectors (who could've guessed!).$$\underline{u}\cdot\underline{v}^\top$$ We'll use these two vectors below.$$\underline{u}=\begin{pmatrix}4\\4\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\-4\end{pmatrix}$$Before we start, the dot product has the following important rule:
+
+**The number of columns of the left side must match the number of rows of the right side**
+
+But $\underline{u}$ above has 1 column and 2 rows, and so does $\underline{v}$. What can we do?
+
+Easy - we can transpose $\underline{v}$! It now has 1 row and 2 columns.$$\underline{u}=\begin{pmatrix}4\\4\end{pmatrix}\qquad\underline{v}^\top=\begin{pmatrix}4&-4\end{pmatrix}$$$\underline{u}$'s number of columns match with $\underline{v}^\top$'s number of rows, so now we can calculate the dot product. To do this, we multiply each corresponding component together, then at the end, add them all together so that we end up with a scalar. In the example above, we want to run something like this:$$\underline{u}\cdot\underline{v}^\top=\left(u_1\times v_1\right)+\left(u_2\times v_2\right)$$Let's write the exact same thing again, but plug the numbers in now:$$\underline{u}\cdot\underline{v}^\top=\left(4\times4\right)+\left(4\times-4\right)$$$$=16+(-16)=0$$
+And it equals 0... Wait, that doesn't seem correct, surely? Is that supposed to happen?
 
 Yes! It's not an error, the dot product here is 0. But why?
 
@@ -243,15 +249,25 @@ If we draw these two vectors on a grid, we can see that they are at a perfect $9
 
 This is a clue to what we said earlier about two vectors pointing in the same direction! 
 
+{{< details title="Do you like geometry? Here's an explanation with trigonometry! (Optional)" >}}
+// TO DO
+{{< /details >}}
+
+{{< details title="**Exercise 26**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}=\begin{pmatrix}27\\21\\64\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}82\end{pmatrix}$$Click to reveal the answer." >}}
+**Answer**: TODO
+{{< /details >}}
+
+This brings us neatly to the idea of **Orthogonality**. Two vectors are orthogonal to each other if the angle between them is exactly $90^\circ$. This can be extremely useful when calculating geometry!
+
+When you calculate the dot product of two vectors and get 0 as an answer, there is a $90^\circ$ angle between them, which means that those two vectors are **orthogonal**. 
+
 In fact, if the scalar that comes out of a dot product is a positive number (more than 0), it means that the angle between the two vectors is less than $90^\circ$. 
 
 Oppositely, if it results in a negative number (less than 0), then it means that the angle between the two vectors is more than $90^\circ$.
 
-// WHAT IS ORTHOGONALITY
+// ARE THESE TWO VECTORS ORTHOGONAL EXERCISES
 
-{{< details title="Do you like geometry? Here's an explanation with trigonometry!" >}}
-// TO DO
-{{< /details >}}
+
 # 09. Length of a vector
 
 # 10. Unit vectors and normalisation
@@ -265,11 +281,21 @@ Oppositely, if it results in a negative number (less than 0), then it means that
 - A null vector $\underline{0}$ is a special vector with only zeros
 - Individual components of a vector can be accessed with $u_n$
 - $\underline{u}\cdot\underline{v}$ is the dot product operation, which tells us how much two vectors point in the same direction
+- To calculate dot product, the left side must have as many columns as the right side has rows
 - Orthogonality is a metric of how perpendicular two vectors are
 - $\underline{u}\cdot\underline{v}=0$ means $\underline{u}$ and $\underline{v}$ are orthogonal, i.e. $90^\circ$ angle between them
 - $\left|\underline{u}\right|$ is the length of $\underline{u}$, which is a scalar 
 - Length can be calculated using Pythagoras' Theorem
 - $\underline{\hat{u}}$ is a unit vector, where $\left|\underline{\hat{u}}\right|=1$
+- Any vector can be normalised into a unit vector using // TODO
+
+> **Usage of Generative AI**
+> 
+> Everything in this post was written and researched by myself, based on my existing knowledge and past experience. After the post was fully complete, it was fact-checked by Claude Opus 5.5 to ensure all information presented is as accurate as possible.
+> 
+> Nothing you see is AI generated, and nothing on this website will ever be AI generated. All xyz words and xyz characters were hand-pressed by my fingers on a keyboard and always will be.
+> 
+
 
 // end part 1 here
 
