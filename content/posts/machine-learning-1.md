@@ -1,6 +1,6 @@
 ---
 title: Machine Learning 01 := Getting Started with Linear Algebra
-date: 2026-10-06
+date: 2026-10-05
 draft: false
 tags:
   - machine-learning
