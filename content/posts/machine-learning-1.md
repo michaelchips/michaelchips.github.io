@@ -7,33 +7,38 @@ tags:
 ---
 
 As this year, my final year project at university is about comparing different machine learning algorithms, I thought I would start a series of blog posts exploring machine learning from the start!
-
+![Visualisation of (5\\6\\4)](/images/machine-learning/01/02-example-3d.png)
+Linear algebra is the area of maths that is all about **vectors**. It's an extremely important area of maths that is responsible for many areas of our modern world, such as AI, CGI in movies, playing games on our computers and phones, solving problems in engineering and physics, to name a few!
+<!--more-->
+---
+## Machine Learning Series
 - 01 := Getting Started with Linear Algebra <== **You are here**
 - 02 := AI and ML Fundamentals
 - ...
 
 The target audience for these is anyone; regardless of whether you have a maths/computer science background, or you only went as far as GCSE Maths. Ultimately, as someone who's own maths is okay but not strong, I aim to make these posts into what I wish I would've read when I was first learning about machine learning.
 
-This is the first part, which covers the mathematics behind machine learning: linear algebra! We won't talk much about machine learning that much here; that's for future posts. 
+This is the first part, which explains how to speak the language of machine learning: linear algebra! We won't talk much about machine learning that much right now; that's for future posts. 
 
 ## Table of Contents
 
-1. What is Linear Algebra? [[Jump there]](#01-what-is-linear-algebra)
-2. So then, what is a vector? [[Jump there]](#02-so-then-what-is-a-vector)
-3. Vectors vs Co-ordinates [[Jump there]](#03-vectors-vs-co-ordinates)
-4. Writing out vectors [[Jump there]](#04-writing-out-vectors)
-5. How to access individual components of a vector [[Jump there]](#05-how-to-access-individual-components-of-a-vector)
-6. Adding and subtracting with vectors [[Jump there]](#06-adding-and-subtracting-with-vectors)
-7. Scalars and scalar multiplication [[Jump there]](#07-scalars-and-scalar-multiplication)
-8. Dot product and orthogonality [[Jump there]](#08-dot-product-and-orthogonality)
-9. Length of a vector [[Jump there]](#09-length-of-a-vector)
-10. Unit vectors and normalisation [[Jump there]](#10-unit-vectors-and-normalisation)
-11. Summary [[Jump there]](#11-summary)
-# 01. What is Linear Algebra?
-Linear algebra is the area of maths that is all about **vectors**. It's an extremely important area of maths that is responsible for many areas of our modern world, such as machine learning, making movies and playing games on our computers and phones, solving problems in engineering and physics, to name a few!
+1. So then, what is a vector? [[Jump there]](#01-so-then-what-is-a-vector)
+2. Vectors vs Co-ordinates [[Jump there]](#02-vectors-vs-co-ordinates)
+3. Writing out vectors [[Jump there]](#03-writing-out-vectors)
+4. How to access individual components of a vector [[Jump there]](#04-how-to-access-individual-components-of-a-vector)
+5. Adding and subtracting with vectors [[Jump there]](#05-adding-and-subtracting-with-vectors)
+6. Scalars and scalar multiplication [[Jump there]](#06-scalars-and-scalar-multiplication)
+7. Dot product and orthogonality [[Jump there]](#07-dot-product-and-orthogonality)
+8. Length of a vector [[Jump there]](#08-length-of-a-vector)
+9. Unit vectors and normalisation [[Jump there]](#09-unit-vectors-and-normalisation)
+10. Summary [[Jump there]](#10-summary)
+11. Extra Exercises [[Jump there]](#11-extra-exercises)
 
-When people hear the words "linear algebra" for the first time, they think of rearranging formulas and solving equations. However, we don't need to calculate this by hand much in machine learning, therefore it's not super useful to know. So you won't find any of that here!
-# 02. So then, what is a vector?
+---
+
+# 01. So then, what is a vector?
+Since linear algebra is all about vectors, let's start there!
+
 A vector is a structure containing a list of numbers. Each number in the list represents a unique dimension. 
 
 All of these numbers come together to describe two important properties: **magnitude** and **direction**. But what do these mean?
@@ -64,11 +69,11 @@ $$\begin{pmatrix}5\\6\\4\end{pmatrix}$$
 We can still keep going even further; how about a ten-dimensional vector?
 $$\begin{pmatrix}5\\2\\6\\6\\9\\4\\1\\3\\7\\8\end{pmatrix}$$
 Well, okay, I can't create a visualisation for that one. But they absolutely still have direction and magnitude! Vectors with more than three dimensions are very common in machine learning.
-# 03. Vectors vs Co-ordinates
+# 02. Vectors vs Co-ordinates
 At this point, you may be questioning "okay, so vectors are just like co-ordinates".
 
 Although on the surface they look very similar, co-ordinates are a set of numbers that describe a position of a point. Co-ordinates do not have direction or magnitude, whereas vectors do!
-# 04. Writing out vectors
+# 03. Writing out vectors
 There's a few different ways of writing vectors. Different websites, books, videos etc may use different ways to write the same thing.
 
 We'll call a vector the letter $u$. These are some of the common various ways to write this vector:
@@ -118,7 +123,7 @@ We always refer to it with an underlined zero, and we reserve the number zero fo
 **Answer**: $$\underline{0}=\begin{pmatrix}0\\0\\0\\0\\0\\0\end{pmatrix}$$
 {{< /details >}}
 
-# 05. How to access individual components of a vector
+# 04. How to access individual components of a vector
 So you have a vector with all these dimensions, but sometimes we want to precisely grab only one row or column out of a vector. How do we do that?
 
 Lets work with the vector $\underline{u}$ below.
@@ -149,7 +154,7 @@ The process is not any different, just because it's transposed!
 {{< details title="**Exercise 10**: Below is a vector $\underline{y}$. Write on paper what $y_2\times y_4$ would be.$$\underline{y}=\begin{pmatrix}5\\20\\15\\10\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$y_2=20\qquad y_4=10$$$$20\times10=200$$
 {{< /details >}}
-# 06. Adding and subtracting with vectors
+# 05. Adding and subtracting with vectors
 It's possible for us to add two vectors together, or subtract one vector from another, just like in everyday maths. However, there is one important constraint that must be followed:
 
 **Vectors MUST have the same number of rows and columns to be added or subtracted**
@@ -181,7 +186,7 @@ $$\underline{u}-\underline{v}=\begin{pmatrix}7-4\\9-5\\3-5\end{pmatrix}$$$$=\beg
 {{< details title="**Exercise 14**: Below are two vectors $\underline{u}$ and $\underline{v}$. Write out on paper $\underline{u}-\underline{v}$.$$\underline{u}=\begin{pmatrix}10\\10\\10\\10\\10\\10\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}7\\9\\6\\9\\5\\1\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{u}-\underline{v}=\begin{pmatrix}10-7\\10-9\\10-6\\10-9\\10-5\\10-1\end{pmatrix}$$$$=\begin{pmatrix}3\\1\\4\\1\\5\\9\end{pmatrix}$$
 {{< /details >}}
-# 07. Scalars and scalar multiplication
+# 06. Scalars and scalar multiplication
 Scaling vectors is very important in linear algebra, as we often need to stretch out a vector to be longer, or squash it so that it's shorter. In other words, we can use **scalars** to scale a vector to be larger or smaller. 
 
 But what is a scalar, you might ask? 
@@ -202,7 +207,7 @@ Effectively, we multiply all the components of a vector by the scalar.
 {{< details title="**Exercise 17**: Below is a vector $\underline{x}$. Write on paper what $\frac{1}{4}\underline{x}$ would be.$$\underline{x}=\begin{pmatrix}40\\20\\4\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\frac{1}{4}\underline{x}=\begin{pmatrix}10\\5\\1\end{pmatrix}$$
 {{< /details >}}
-# 08. Dot product and orthogonality
+# 07. Dot product and orthogonality
 Everything we've covered so far has been quite standalone, but all of that takes us into our first topic with multiple layers to it... The dot product!
 
 The dot product is an operation we can perform with two vectors and it returns a scalar. Its purpose is to tell us **how much two vectors point in the same direction**. But how?
@@ -269,7 +274,7 @@ Watch the demo below of a vector rotating around $\begin{pmatrix}0,0\end{pmatrix
 {{< details title="**Exercise 25**: Below are two vectors $\underline{u}^\top$ and $\underline{v}$. Are they orthogonal?$$\underline{u}^\top=\begin{pmatrix}1&2&3&4\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\-3\\2\\-1\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: Yes, they are orthogonal because their dot product equals 0.$$\underline{u}^\top\cdot\underline{v}=\left(1\times4\right)+\left(2\times-3\right)+\left(3\times2\right)+\left(4\times-1\right)$$$$=4+(-6)+6+(-4)=0$$
 {{< /details >}}
-# 09. Length of a vector
+# 08. Length of a vector
 Earlier, we mentioned that vectors have two properties: **direction** and **magnitude**. With the dot product, we can work out the rough direction between two vectors. It's also possible to work out the precise angle using some fancy trigonometry stuff, which is beyond the scope of this article, but just know it exists!
 
 But how can we work out the other property of a vector, magnitude?
@@ -309,7 +314,7 @@ Instead of $a$ and $b$, we insert the individual components of the vector, $u_1$
 We can expand this further as it's common to calculate the length of a vector in more than two dimensions. How about five dimensions?
 
 Let's go through another example with a new vector below, we'll call it $\underline{v}$.$$\underline{v}=\begin{pmatrix}5\\2\\4\\3\\1\end{pmatrix}$$How do we calculate the length of a vector with more than two, or even three dimensions? Well, it doesn't change very much, the only difference is we need to square the extra numbers!$$\left|\underline{u}\right|=\sqrt{v_1^2+v_2^2+v_3^2+v_4^2+v_5^2}$$Now lets plug our numbers in from $\underline{v}$.$$\left|\underline{v}\right|=\sqrt{5^2+2^2+4^2+3^2+1^2}$$$$=\sqrt{25+4+16+9+1}$$$$=\sqrt{55}$$Now you know how to calculate the length of a vector!
-# 10. Unit vectors and normalisation
+# 09. Unit vectors and normalisation
 This brings us onto the last topic of this post, which is about unit vectors. We need to introduce one more bit of new notation, which looks like a vector wearing a little hat.$$\text{Unit vector: }\underline{\hat{u}}$$A unit vector is a vector that has a length of exactly 1. This means that if you tried to use the previous section to work out the length of a unit vector, you'd end up with exactly $1.0$ recurring!$$\left|\underline{u}\right|\text{ of any vector }\underline{\hat{u}}=1$$This means that the magnitude of unit vectors is fixed, so now they purely represent a direction. Also, because unit vectors cannot extend any longer or shorter than a magnitude of 1, if we map out all possible unit vectors, we actually end up with a circle.
 ![Unit vector circle example](/images/machine-learning/01/10-example-unit-circle.png)
 There is also a way we can turn _any_ vector into a unit vector. This is called **normalisation**.
@@ -326,7 +331,7 @@ On the other hand, if a vector's length is already less than 1, we'll end up wit
 Lets go through an example with one last vector below, again called $\underline{u}$.$$\underline{u}=\begin{pmatrix}2\\5\end{pmatrix}$$It's easy to guess that $\underline{u}$ is not a unit vector, even without working out $\left|\underline{u}\right|$, because it already looks like it's length will be longer than 1.
 
 First, let's calculate $\left|\underline{u}\right|$.$$\left|\underline{u}\right|=\sqrt{2^2+5^2}$$$$=\sqrt{4+25}$$$$=\sqrt{29}$$Now lets divide 1 by $\sqrt{29}$. I'll round it to 6 decimals, otherwise it'll continue forever...$$\frac{1}{\sqrt{29}}=0.185695\cdots$$Now we scale $\underline{u}$ by $0.185695$...$$0.185695\underline{u}=\underline{\hat{u}}$$And now our unit vector is complete! It now has a length of 1.
-# 11. Summary
+# 10. Summary
 - A vector $\underline{u}$ has magnitude and direction
 - Vectors are not the same as co-ordinates
 - Column vectors display their components vertically
@@ -354,8 +359,8 @@ If you learned something or found this beneficial, I'd be grateful if you could 
 > Nothing you see is AI generated, and nothing on this website will ever be AI generated. All xyz words and xyz characters were hand-pressed by my fingers on a keyboard and always will be. Images are generated using Desmos.
 > 
 
-# Extra Exercises
-This section just contains some extra exercises to help solidify your knowledge. The difficulty should be similar to the other exercises in this post. Write these all out on pen and paper if you can!
+# 11. Extra Exercises
+This section contains extra exercises to help solidify your knowledge. The difficulty should be similar to the other exercises in this post. Write these all out on pen and paper if you can!
 
 {{< details title="**Extra Exercise 1**: Below is a vector $\underline{v}$. Write on paper what $\underline{v}^\top$ would be.$$\underline{v}=\begin{pmatrix}a\\b\\c\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{v}^\top=\begin{pmatrix}a&b&c\end{pmatrix}$$
