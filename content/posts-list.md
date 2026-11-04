@@ -1,5 +1,7 @@
 # All Posts
 
+2026-10-06 :~$ [**Machine Learning 01 := Getting Started with Linear Algebra**](/posts/machine-learning-1/)
+
 2026-06-08 :~$ [**How Compilers & Interpreters Work 01 := Lexical Analysis**](/posts/lexical-analysis/)
 
 2026-01-25 :~$ [**Introducing Volq: A programming language for simulating quantum computation**](/posts/introducing-volq/)
