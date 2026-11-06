@@ -356,7 +356,7 @@ If you learned something or found this beneficial, I'd be grateful if you could 
 > 
 > Everything in this post was written by me, based on my existing knowledge and online research. After the post was fully written, it was fact-checked by Claude Opus 5.5 to ensure all information presented is as accurate as possible. In total, 3 corrections which it suggested have been implemented.
 > 
-> Nothing you see is AI generated, and nothing on this website will ever be AI generated. All xyz words and xyz characters were hand-pressed by my fingers on a keyboard and always will be. Images are generated using Desmos.
+> Nothing you see is AI generated, and nothing on this website will ever be AI generated. All 3,896 words and 21,477 characters were hand-pressed by my fingers on a keyboard and always will be. Images are generated using Desmos.
 > 
 
 # 11. Extra Exercises
