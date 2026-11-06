@@ -51,7 +51,7 @@ $$\begin{pmatrix}5\end{pmatrix}$$
 - The **magnitude** of a vector is how far it points in a direction. 
   If a vector's arrow is shorter, it has a smaller magnitude. If a vector's arrow is longer, it has a larger magnitude.
 
-{{< details title="**Exercise 1**: Which direction will this vector point on a number line?$$\begin{pmatrix}-2\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 01**: Which direction will this vector point on a number line?$$\begin{pmatrix}-2\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: It will point left.
 ![Visualisation of (-2)](/images/machine-learning/01/02-exercise-01.png)
 {{< /details >}}
@@ -94,21 +94,21 @@ The shape of this vector was 3 rows and 1 column before, but now after transposi
 We can also do this the other way round...$$\begin{pmatrix}4&5&6\end{pmatrix}^\top=\begin{pmatrix}4\\5\\6\end{pmatrix}$$
 And that's all there is to it!
 
-{{< details title="**Exercise 01**: Below is a vector $\underline{u}$. Write on paper what $\underline{u}^\top$ would be.$$\underline{u}=\begin{pmatrix}10\\4\\6\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 02**: Below is a vector $\underline{u}$. Write on paper what $\underline{u}^\top$ would be.$$\underline{u}=\begin{pmatrix}10\\4\\6\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{u}^\top=\begin{pmatrix}10&4&6\end{pmatrix}$$
 {{< /details >}}
 
 
 
-{{< details title="**Exercise 02**: Below is a row vector $\underline{w}$. Write on paper what $\underline{w}^\top$ would be.$$\underline{w}=\begin{pmatrix}5.25&4.0&2.37\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 03**: Below is a row vector $\underline{w}$. Write on paper what $\underline{w}^\top$ would be.$$\underline{w}=\begin{pmatrix}5.25&4.0&2.37\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{w}^\top=\begin{pmatrix}5.25\\4.0\\2.37\end{pmatrix}$$
 {{< /details >}}
 
-{{< details title="**Exercise 03**: Below is a vector $\underline{x}$. How many rows **and** columns does it have?$$\underline{x}=\begin{pmatrix}1\\2\\2\\1\\3\\2\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 04**: Below is a vector $\underline{x}$. How many rows **and** columns does it have?$$\underline{x}=\begin{pmatrix}1\\2\\2\\1\\3\\2\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $\underline{x}$ has 6 rows, 1 column.
 {{< /details >}}
 
-{{< details title="**Exercise 04**: Below is a vector $\underline{y}$. How many rows **and** columns would $\underline{y}^\top$ have?$$\underline{y}=\begin{pmatrix}a\\s\\d\\f\\g\\h\\j\\k\\l\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 05**: Below is a vector $\underline{y}$. How many rows **and** columns would $\underline{y}^\top$ have?$$\underline{y}=\begin{pmatrix}a\\s\\d\\f\\g\\h\\j\\k\\l\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $\underline{y}^\top$ would have 1 row, 9 columns.
 $$\underline{y}^\top=\begin{pmatrix}a&s&d&f&g&h&j&k&l\end{pmatrix}$$
 {{< /details >}}
@@ -119,7 +119,7 @@ A null vector is made up entirely of zeros. A three dimensional null vector is s
 $$\underline{0}=\begin{pmatrix}0\\0\\0\end{pmatrix}$$
 We always refer to it with an underlined zero, and we reserve the number zero for using the null vector.
 
-{{< details title="**Exercise 05**: What would a six dimensional null vector look like?$$$$Click to reveal the answer." >}}
+{{< details title="**Exercise 06**: What would a six dimensional null vector look like?$$$$Click to reveal the answer." >}}
 **Answer**: $$\underline{0}=\begin{pmatrix}0\\0\\0\\0\\0\\0\end{pmatrix}$$
 {{< /details >}}
 
@@ -134,24 +134,24 @@ $$u_1=15\qquad u_2=20\qquad u_3=5$$
 
 Notice how it's no longer underlined - this is because the result is no longer a vector! It's just one single number from this vector.
 
-{{< details title="**Exercise 06**: Below is a new vector $\underline{u}$. Write on paper what $u_1$ would be.$$\underline{u}=\begin{pmatrix}123\\456\\789\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 07**: Below is a new vector $\underline{u}$. Write on paper what $u_1$ would be.$$\underline{u}=\begin{pmatrix}123\\456\\789\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$u_1=123$$
 {{< /details >}}
 
-{{< details title="**Exercise 07**: Below is a vector $\underline{v}$. Write on paper what $v_6$ would be.$$\underline{v}=\begin{pmatrix}2.39\\1.67\\3.12\\5.01\\0.62\\2.55\\991000\\0.01\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 08**: Below is a vector $\underline{v}$. Write on paper what $v_6$ would be.$$\underline{v}=\begin{pmatrix}2.39\\1.67\\3.12\\5.01\\0.62\\2.55\\991000\\0.01\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$v_6=2.55$$
 {{< /details >}}
 
-{{< details title="**Exercise 08**: Below is a vector $\underline{w}^\top$. Write on paper what $w_3$ would be.$$\underline{w}^\top=\begin{pmatrix}125&250&375&500\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 09**: Below is a vector $\underline{w}^\top$. Write on paper what $w_3$ would be.$$\underline{w}^\top=\begin{pmatrix}125&250&375&500\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$w_3=375$$
 The process is not any different, just because it's transposed!
 {{< /details >}}
 
-{{< details title="**Exercise 09**: Below is a vector $\underline{x}$. Write on paper what $x_1+x_2+x_3$ would be.$$\underline{x}=\begin{pmatrix}2\\5\\3\\6\\1\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 10**: Below is a vector $\underline{x}$. Write on paper what $x_1+x_2+x_3$ would be.$$\underline{x}=\begin{pmatrix}2\\5\\3\\6\\1\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$x_1=2\qquad x_2=5\qquad x_3=3$$$$2+5+3=10$$
 {{< /details >}}
 
-{{< details title="**Exercise 10**: Below is a vector $\underline{y}$. Write on paper what $y_2\times y_4$ would be.$$\underline{y}=\begin{pmatrix}5\\20\\15\\10\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 11**: Below is a vector $\underline{y}$. Write on paper what $y_2\times y_4$ would be.$$\underline{y}=\begin{pmatrix}5\\20\\15\\10\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$y_2=20\qquad y_4=10$$$$20\times10=200$$
 {{< /details >}}
 # 05. Adding and subtracting with vectors
@@ -161,11 +161,11 @@ It's possible for us to add two vectors together, or subtract one vector from an
 
 Vectors with different dimensionality are incompatible!
 
-{{< details title="**Exercise 11**: Below are two vectors $\underline{u}$ and $\underline{v}$. Can $\underline{u}+\underline{v}$ be calculated?$$\underline{u}=\begin{pmatrix}3\\9\\7\\6\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}41\\8\\77\\0\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 12**: Below are two vectors $\underline{u}$ and $\underline{v}$. Can $\underline{u}+\underline{v}$ be calculated?$$\underline{u}=\begin{pmatrix}3\\9\\7\\6\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}41\\8\\77\\0\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: Yes. $\underline{u}$ and $\underline{v}$ have the same amount of rows and columns.
 {{< /details >}}
 
-{{< details title="**Exercise 12**: Below are two vectors $\underline{u}$ and $\underline{v}$. Can $\underline{u}+\underline{v}$ be calculated?$$\underline{u}=\begin{pmatrix}41714\\86827\\90019\\47547\\9865\\22938\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}63592\\52055\\38177\\5381\\39738\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 13**: Below are two vectors $\underline{u}$ and $\underline{v}$. Can $\underline{u}+\underline{v}$ be calculated?$$\underline{u}=\begin{pmatrix}41714\\86827\\90019\\47547\\9865\\22938\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}63592\\52055\\38177\\5381\\39738\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: No. $\underline{v}$ has one less row than $\underline{u}$, so it is impossible to calculate $\underline{u}+\underline{v}$ without changing their dimensions.
 {{< /details >}}
 
@@ -176,14 +176,14 @@ To do this, we add each corresponding component together, and the final result i
 ![Visualisation of u+v](/images/machine-learning/01/06-example-addition.png)
 Not so hard, right? Try these exercises for yourself!
 
-{{< details title="**Exercise 13**: Below are two vectors $\underline{u}$ and $\underline{v}$. Write out on paper $\underline{u}+\underline{v}$.$$\underline{u}=\begin{pmatrix}10\\6\\5\\8\\-1\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}5\\3\\2\\0\\3\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 14**: Below are two vectors $\underline{u}$ and $\underline{v}$. Write out on paper $\underline{u}+\underline{v}$.$$\underline{u}=\begin{pmatrix}10\\6\\5\\8\\-1\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}5\\3\\2\\0\\3\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{u}+\underline{v}=\begin{pmatrix}15\\9\\7\\8\\2\end{pmatrix}$$
 {{< /details >}}
 
 Subtracting one vector from another vector is almost an identical process to adding two vectors. Let's use a new $\underline{u}$ and $\underline{v}$ below:$$\underline{u}=\begin{pmatrix}7\\9\\3\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\5\\5\end{pmatrix}$$To calculate $\underline{u}-\underline{v}$, we subtract each component of $\underline{v}$ from the corresponding component of $\underline{u}$, like this:
 $$\underline{u}-\underline{v}=\begin{pmatrix}7-4\\9-5\\3-5\end{pmatrix}$$$$=\begin{pmatrix}3\\4\\-2\end{pmatrix}$$
 
-{{< details title="**Exercise 14**: Below are two vectors $\underline{u}$ and $\underline{v}$. Write out on paper $\underline{u}-\underline{v}$.$$\underline{u}=\begin{pmatrix}10\\10\\10\\10\\10\\10\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}7\\9\\6\\9\\5\\1\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 15**: Below are two vectors $\underline{u}$ and $\underline{v}$. Write out on paper $\underline{u}-\underline{v}$.$$\underline{u}=\begin{pmatrix}10\\10\\10\\10\\10\\10\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}7\\9\\6\\9\\5\\1\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{u}-\underline{v}=\begin{pmatrix}10-7\\10-9\\10-6\\10-9\\10-5\\10-1\end{pmatrix}$$$$=\begin{pmatrix}3\\1\\4\\1\\5\\9\end{pmatrix}$$
 {{< /details >}}
 # 06. Scalars and scalar multiplication
@@ -196,15 +196,15 @@ Simple - a scalar is just a number! It doesn't need to be anything special.
 Let's go through an example with a vector $\underline{u}$.$$\underline{u}=\begin{pmatrix}4\\6\end{pmatrix}$$If we want to scale this vector to be double the size, we can put $2$ as a scalar like shown below:$$2\underline{u}=\begin{pmatrix}2\times4\\2\times6\end{pmatrix}$$$$=\begin{pmatrix}8\\12\end{pmatrix}$$
 Effectively, we multiply all the components of a vector by the scalar.
 
-{{< details title="**Exercise 15**: If we want to make $\underline{u}$ half the size, what can we use as a scalar?$$$$Click to reveal the answer." >}}
+{{< details title="**Exercise 16**: If we want to make $\underline{u}$ half the size, what can we use as a scalar?$$$$Click to reveal the answer." >}}
 **Answer**: $\frac{1}{2}$ or $0.5$.$$\frac{1}{2}\underline{u}=\begin{pmatrix}2\\3\end{pmatrix}$$
 {{< /details >}}
 
-{{< details title="**Exercise 16**: Below is a vector $\underline{v}$. Write on paper what $3\underline{v}$ would be.$$\underline{v}=\begin{pmatrix}2\\1\\4\\3\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 17**: Below is a vector $\underline{v}$. Write on paper what $3\underline{v}$ would be.$$\underline{v}=\begin{pmatrix}2\\1\\4\\3\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$3\underline{v}=\begin{pmatrix}6\\3\\12\\9\end{pmatrix}$$
 {{< /details >}}
 
-{{< details title="**Exercise 17**: Below is a vector $\underline{x}$. Write on paper what $\frac{1}{4}\underline{x}$ would be.$$\underline{x}=\begin{pmatrix}40\\20\\4\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 18**: Below is a vector $\underline{x}$. Write on paper what $\frac{1}{4}\underline{x}$ would be.$$\underline{x}=\begin{pmatrix}40\\20\\4\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\frac{1}{4}\underline{x}=\begin{pmatrix}10\\5\\1\end{pmatrix}$$
 {{< /details >}}
 # 07. Dot product and orthogonality
@@ -220,11 +220,11 @@ But $\underline{u}$ above has 1 column and 2 rows, and so does $\underline{v}$. 
 
 Easy - we can transpose $\underline{u}$! It now has 1 row and 2 columns.$$\underline{u}^\top=\begin{pmatrix}4&4\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\-4\end{pmatrix}$$$\underline{u}$'s number of columns match with $\underline{v}^\top$'s number of rows, so now we can calculate the dot product. 
 
-{{< details title="**Exercise 18**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}=\begin{pmatrix}27\\21\\64\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}82&17&46&52\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 19**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}=\begin{pmatrix}27\\21\\64\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}82&17&46&52\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: No, $\underline{v}$ has more dimensions than $\underline{u}$.
 {{< /details >}}
 
-{{< details title="**Exercise 19**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}=\begin{pmatrix}51\\321\\5\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}10\\28\\207\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 20**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}=\begin{pmatrix}51\\321\\5\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}10\\28\\207\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: In their current state, no. $\underline{u}$'s number of columns does not match $\underline{v}$'s number of rows.
 
 If you transpose $\underline{u}$ then the answer becomes yes!
@@ -239,11 +239,11 @@ If we draw these two vectors on a grid, we can see that they are at a perfect $9
 ![Visualisation of Orthogonality](/images/machine-learning/01/08-example-orthogonality.png)
 This is a clue to what we said earlier about two vectors pointing in the same direction! 
 
-{{< details title="**Exercise 20**: Below are two vectors $\underline{u}^\top$ and $\underline{v}$. Work out on paper $\underline{u}^\top\cdot\underline{v}$.$$\underline{u}^\top=\begin{pmatrix}5&3\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\5\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 21**: Below are two vectors $\underline{u}^\top$ and $\underline{v}$. Work out on paper $\underline{u}^\top\cdot\underline{v}$.$$\underline{u}^\top=\begin{pmatrix}5&3\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\5\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{u}^\top\cdot\underline{v}=\left(5\times4\right)+\left(3\times5\right)$$$$=20+15=35$$
 {{< /details >}}
 
-{{< details title="**Exercise 21**: Below are two vectors $\underline{y}^\top$ and $\underline{z}$. Work out on paper $\underline{y}^\top\cdot\underline{z}$.$$\underline{y}^\top=\begin{pmatrix}3&-4&5\end{pmatrix}\qquad\underline{z}=\begin{pmatrix}4\\3\\0\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 22**: Below are two vectors $\underline{y}^\top$ and $\underline{z}$. Work out on paper $\underline{y}^\top\cdot\underline{z}$.$$\underline{y}^\top=\begin{pmatrix}3&-4&5\end{pmatrix}\qquad\underline{z}=\begin{pmatrix}4\\3\\0\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{y}^\top\cdot\underline{z}=\left(3\times4\right)+\left(-4\times3\right)+\left(5\times0\right)$$$$=12+(-12)+0=0$$
 {{< /details >}}
 
@@ -259,19 +259,19 @@ Watch the demo below of a vector rotating around $\begin{pmatrix}0,0\end{pmatrix
 
 <iframe src="https://www.desmos.com/calculator/ag2pel1vy3?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-{{< details title="**Exercise 22**: You've calculated the dot product of two vectors and got the answer $0$. Are the two vectors orthogonal? $$$$Click to reveal the answer." >}}
+{{< details title="**Exercise 23**: You've calculated the dot product of two vectors and got the answer $0$. Are the two vectors orthogonal? $$$$Click to reveal the answer." >}}
 **Answer**: Yes.
 {{< /details >}}
 
-{{< details title="**Exercise 23**: You've calculated the dot product of two vectors and got the answer $-2$. Are the two vectors orthogonal? $$$$Click to reveal the answer." >}}
+{{< details title="**Exercise 24**: You've calculated the dot product of two vectors and got the answer $-2$. Are the two vectors orthogonal? $$$$Click to reveal the answer." >}}
 **Answer**: No. They are orthogonal only if their dot product is 0.
 {{< /details >}}
 
-{{< details title="**Exercise 24**: You've calculated the dot product of two vectors and got the answer $0.0001$. Are the two vectors orthogonal? $$$$Click to reveal the answer." >}}
+{{< details title="**Exercise 25**: You've calculated the dot product of two vectors and got the answer $0.0001$. Are the two vectors orthogonal? $$$$Click to reveal the answer." >}}
 **Answer**: No. Two vectors are orthogonal only if their dot product is 0, no exceptions!
 {{< /details >}}
 
-{{< details title="**Exercise 25**: Below are two vectors $\underline{u}^\top$ and $\underline{v}$. Are they orthogonal?$$\underline{u}^\top=\begin{pmatrix}1&2&3&4\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\-3\\2\\-1\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Exercise 26**: Below are two vectors $\underline{u}^\top$ and $\underline{v}$. Are they orthogonal?$$\underline{u}^\top=\begin{pmatrix}1&2&3&4\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}4\\-3\\2\\-1\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: Yes, they are orthogonal because their dot product equals 0.$$\underline{u}^\top\cdot\underline{v}=\left(1\times4\right)+\left(2\times-3\right)+\left(3\times2\right)+\left(4\times-1\right)$$$$=4+(-6)+6+(-4)=0$$
 {{< /details >}}
 # 08. Length of a vector
@@ -362,31 +362,31 @@ If you learned something or found this beneficial, I'd be grateful if you could 
 # 11. Extra Exercises
 This section contains extra exercises to help solidify your knowledge. The difficulty should be similar to the other exercises in this post. Write these all out on pen and paper if you can!
 
-{{< details title="**Extra Exercise 1**: Below is a vector $\underline{v}$. Write on paper what $\underline{v}^\top$ would be.$$\underline{v}=\begin{pmatrix}a\\b\\c\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 01**: Below is a vector $\underline{v}$. Write on paper what $\underline{v}^\top$ would be.$$\underline{v}=\begin{pmatrix}a\\b\\c\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\underline{v}^\top=\begin{pmatrix}a&b&c\end{pmatrix}$$
 {{< /details >}}
 
-{{< details title="**Extra Exercise 2**: Below is a column vector $\underline{z}$. Write on paper what $\left(\underline{z}^\top\right)^\top$ would be.$$\underline{z}=\begin{pmatrix}3\\1\\4\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 02**: Below is a column vector $\underline{z}$. Write on paper what $\left(\underline{z}^\top\right)^\top$ would be.$$\underline{z}=\begin{pmatrix}3\\1\\4\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\left(\underline{z}^\top\right)^\top=\begin{pmatrix}3\\1\\4\end{pmatrix}$$
 Transpose a vector, transpose it again, you end up with the same thing as before!
 {{< /details >}}
 
-{{< details title="**Extra Exercise 3**: Below are two vectors $\underline{u}$ and $\underline{v}$. Can $\underline{u}+\underline{v}$ be calculated?$$\underline{u}=\begin{pmatrix}1\\3\\5\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}2&4&6\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 03**: Below are two vectors $\underline{u}$ and $\underline{v}$. Can $\underline{u}+\underline{v}$ be calculated?$$\underline{u}=\begin{pmatrix}1\\3\\5\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}2&4&6\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: No. $\underline{u}$ has 3 rows and 1 column, while $\underline{v}$ has 1 row and 3 columns.
 {{< /details >}}
 
-{{< details title="**Extra Exercise 4**: Imagine you have any two vectors you can think of, $\underline{x}$ and $\underline{y}$. Will $\underline{x}+\underline{y}$ and $\underline{y}+\underline{x}$ always be the same result?$$$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 04**: Imagine you have any two vectors you can think of, $\underline{x}$ and $\underline{y}$. Will $\underline{x}+\underline{y}$ and $\underline{y}+\underline{x}$ always be the same result?$$$$Click to reveal the answer." >}}
 **Answer**: Yes. When performing addition, order does not matter, therefore you will always get the same result.
 {{< /details >}}
 
-{{< details title="**Extra Exercise 5**: Imagine you have any two vectors you can think of, $\underline{x}$ and $\underline{y}$. Will $\underline{x}-\underline{y}$ and $\underline{y}-\underline{x}$ always be the same result?$$$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 05**: Imagine you have any two vectors you can think of, $\underline{x}$ and $\underline{y}$. Will $\underline{x}-\underline{y}$ and $\underline{y}-\underline{x}$ always be the same result?$$$$Click to reveal the answer." >}}
 **Answer**: No. When performing subtraction, order is important, as different orders will return different results.
 
 Example:$$\begin{pmatrix}4\\3\end{pmatrix}-\begin{pmatrix}2\\1\end{pmatrix}=\begin{pmatrix}2\\2\end{pmatrix}$$$$\begin{pmatrix}2\\1\end{pmatrix}-\begin{pmatrix}4\\3\end{pmatrix}=\begin{pmatrix}-2\\-2\end{pmatrix}$$
 The only exception to this is when both vectors are the same, then the result of subtracting one from the other will be a null vector, regardless of the order.
 {{< /details >}}
 
-{{< details title="**Extra Exercise 6**: Below are two vectors $\underline{w}$ and $\underline{z}$. It is impossible to calculate $\underline{w}+\underline{z}$ or $\underline{w}-\underline{z}$. What could you do to make these calculations possible?$$\underline{w}=\begin{pmatrix}5\\2\\4\\2\end{pmatrix}\qquad\underline{z}=\begin{pmatrix}8&6&9&9\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 06**: Below are two vectors $\underline{w}$ and $\underline{z}$. It is impossible to calculate $\underline{w}+\underline{z}$ or $\underline{w}-\underline{z}$. What could you do to make these calculations possible?$$\underline{w}=\begin{pmatrix}5\\2\\4\\2\end{pmatrix}\qquad\underline{z}=\begin{pmatrix}8&6&9&9\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: Transpose either $\underline{w}$ or $\underline{z}$.
 
 Either $\underline{w}-\underline{z}^\top$ or $\underline{w}^\top-\underline{z}$ will be working with the same number of rows and columns! 
@@ -394,15 +394,15 @@ Either $\underline{w}-\underline{z}^\top$ or $\underline{w}^\top-\underline{z}$ 
 Which one you choose depends whether you want a column vector or a row vector as the final result.
 {{< /details >}}
 
-{{< details title="**Extra Exercise 7**: Below is a vector $\underline{w}$. Write on paper what $10\underline{w}$ would be.$$\underline{w}=\begin{pmatrix}15\\12\\25\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 07**: Below is a vector $\underline{w}$. Write on paper what $10\underline{w}$ would be.$$\underline{w}=\begin{pmatrix}15\\12\\25\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$10\underline{w}=\begin{pmatrix}150\\120\\250\end{pmatrix}$$
 {{< /details >}}
 
-{{< details title="**Extra Exercise 8**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}^\top=\begin{pmatrix}2673&2411&1164&3151&988\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}7172\\1488\\1612\\6400\\89\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 08**: Below are two vectors. Is it possible to calculate their dot product?$$\underline{u}^\top=\begin{pmatrix}2673&2411&1164&3151&988\end{pmatrix}\qquad\underline{v}=\begin{pmatrix}7172\\1488\\1612\\6400\\89\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: Yes. $\underline{u}^\top$ has 5 columns and $\underline{v}$ has 5 rows.
 {{< /details >}}
 
-{{< details title="**Extra Exercise 9**: Below are two vectors $\underline{w}^\top$ and $\underline{x}$. Work out on paper $\underline{w}^\top\cdot\underline{x}$.$$\underline{w}^\top=\begin{pmatrix}4&-6\end{pmatrix}\qquad\underline{x}=\begin{pmatrix}-5\\5\end{pmatrix}$$Click to reveal the answer." >}}
+{{< details title="**Extra Exercise 09**: Below are two vectors $\underline{w}^\top$ and $\underline{x}$. Work out on paper $\underline{w}^\top\cdot\underline{x}$.$$\underline{w}^\top=\begin{pmatrix}4&-6\end{pmatrix}\qquad\underline{x}=\begin{pmatrix}-5\\5\end{pmatrix}$$Click to reveal the answer." >}}
 **Answer**: $$\left(4\times-5\right)+\left(-6\times5\right)$$$$=-20+(-30)=-50$$
 {{< /details >}}
 
